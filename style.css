@@ -10,14 +10,15 @@ h2{
 }
 .orange-color{
   color: orange;
-  font-size: 40px;
 }
-section{
+.flexible-container{
   display: flex;
+  margin-bottom: 150px;
 }
 .half-width{
   width: 50%;
   padding-left: 2%;
+  box-shadow: orangered;
 }
 .half-width img{
   width: 80%;
@@ -38,4 +39,27 @@ section{
   background-image: url(images/sarwar2.png);
   background-repeat: no-repeat; 
   background-position: right;
+}
+.experience-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+.Experience-area{
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+#web-developer-exp{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, yellow, cyan);
+  border-image-slice: 1;
+}
+#dev-exp{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, green, cyan);
+  border-image-slice: 1;
 }
